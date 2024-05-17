@@ -1,0 +1,30 @@
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\BUILD\CMAKEFILES\2731FC302E68BD3D9C6E071083EA7B58\PY3DNACALIB-DISTRIBUTION.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/Release/_py3dnacalib.pyd D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/DNACalib/Release/dnacalib.lib D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNACalib/python3/examples/demo.py D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin/dnacalib_demo.py
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNACalib/python3/examples/remove_joint.py D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin/dnacalib_remove_joint.py
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E copy D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNACalib/python3/examples/clear_blend_shapes.py D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin/dnacalib_clear_blend_shapes.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\PYDNACALIB\PYTHON3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib -BD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build --check-stamp-file D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,54 @@
+﻿  Swig compile DNACalib.i for python
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\pma\resources\ArenaMemoryResource.h(72): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\FileStream.h(47): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\FileStream.h(56): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\FileStream.h(61): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryMappedFileStream.h(47): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryMappedFileStream.h(56): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryMappedFileStream.h(61): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryStream.h(56): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryStream.h(64): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\trio\streams\MemoryStream.h(69): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\ArrayView.h(69): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\ArrayView.h(72): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\ArrayView.h(137): warning 389: operator[] ignored (consider using %extend)
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\ArrayView.h(142): warning 389: operator[] ignored (consider using %extend)
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\BinaryStreamReader.h(124): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\BinaryStreamReader.h(129): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\JSONStreamReader.h(42): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\JSONStreamReader.h(47): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\BinaryStreamWriter.h(42): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\BinaryStreamWriter.h(47): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\JSONStreamWriter.h(45): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\JSONStreamWriter.h(50): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\dna\DNACalibDNAReader.h(27): warning 317: Specialization of non-template 'DefaultInstanceCreator'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\dna\DNACalibDNAReader.h(32): warning 317: Specialization of non-template 'DefaultInstanceDestroyer'.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\CommandSequence.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\CalculateMeshLowerLODsCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\ClearBlendShapesCommand.h(29): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\PruneBlendShapeTargetsCommand.h(29): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveAnimatedMapCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveBlendShapeCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveJointAnimationCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveJointCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveMeshCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameAnimatedMapCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameBlendShapeCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameJointCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameMeshCommand.h(30): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RotateCommand.h(31): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\ScaleCommand.h(29): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetBlendShapeTargetDeltasCommand.h(65): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetLODsCommand.h(29): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetNeutralJointRotationsCommand.h(33): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetNeutralJointTranslationsCommand.h(33): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetSkinWeightsCommand.h(33): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetVertexPositionsCommand.h(55): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\TranslateCommand.h(29): warning 362: operator= ignored
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\StringView.h(9): warning 401: Nothing known about base class 'trust::ConstArrayView< char >'. Ignored.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\StringView.h(9): warning 401: Maybe you forgot to instantiate 'trust::ConstArrayView< char >' using %template.
+D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dna\types\StringView.h(14): warning 315: Nothing known about 'Base::ArrayView'.
+  Building Custom Rule D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNACalib/python3/CMakeLists.txt
+  DNACalibPYTHON_wrap.cxx
+     Creating library D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/Release/py3dnacalib.lib and object D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/Release/py3dnacalib.exp
+  py3dnacalib.vcxproj -> D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\build\PyDNACalib\python3\Release\_py3dnacalib.pyd

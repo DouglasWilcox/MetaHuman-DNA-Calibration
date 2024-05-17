@@ -1,8 +1,8 @@
-set(PYTHON3_EXACT_VERSION "" CACHE STRING "Specify exact python3 version against which the extension should be built")
+set(PYTHON3_EXACT_VERSION "3.10" CACHE STRING "Specify exact python3 version against which the extension should be built")
 if(PYTHON3_EXACT_VERSION)
     set(find_python3_extra_args ${PYTHON3_EXACT_VERSION} EXACT)
 endif()
-find_package(Python3 ${find_python3_extra_args} COMPONENTS Development)
+find_package(Python3 "3.10" EXACT COMPONENTS Development)
 
 set_property(SOURCE DNACalib.i PROPERTY CPLUSPLUS ON)
 set_property(SOURCE DNACalib.i PROPERTY SWIG_MODULE_NAME dnacalib)

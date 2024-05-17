@@ -1,0 +1,22 @@
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\PYDNA\PYTHON3\DNA.I
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNA/python3/CMakeFiles/py3dna.dir D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env SWIG_LIB=E:/swig/swigwin-4.1.1/Lib E:/swig/swigwin-4.1.1/swig.exe -python -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNA/python3 -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/DNACalib/include -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/SPyUS/include -IC:/Users/doug/AppData/Local/Programs/Python/Python310/include -outdir D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin -c++ -module dna -interface _py3dna -o D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin/DNAPYTHON_wrap.cxx D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNA/python3/DNA.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\PYDNA\PYTHON3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib -BD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build --check-stamp-file D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNA/python3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

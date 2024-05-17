@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\build\CMakeFiles\e43758f5a4f5a0d5cd7a22a4e504b0d9\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E3D4622A-B499-3409-893E-540E67E4DB24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

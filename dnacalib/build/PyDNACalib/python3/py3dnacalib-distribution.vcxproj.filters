@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\build\CMakeFiles\2731fc302e68bd3d9c6e071083ea7b58\py3dnacalib-distribution.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\PyDNACalib\python3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\build\PyDNACalib\python3\CMakeFiles\py3dnacalib-distribution" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E3D4622A-B499-3409-893E-540E67E4DB24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

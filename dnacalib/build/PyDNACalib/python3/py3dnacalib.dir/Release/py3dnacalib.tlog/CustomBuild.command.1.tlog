@@ -1,0 +1,22 @@
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\PYDNACALIB\PYTHON3\DNACALIB.I
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/CMakeFiles/py3dnacalib.dir D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E env SWIG_LIB=E:/swig/swigwin-4.1.1/Lib E:/swig/swigwin-4.1.1/swig.exe -python -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNA/python3 -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/DNACalib/include -ID:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/SPyUS/include -IC:/Users/doug/AppData/Local/Programs/Python/Python310/include -outdir D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin -c++ -module dnacalib -interface _py3dnacalib -o D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/py3bin/DNACalibPYTHON_wrap.cxx D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/PyDNACalib/python3/DNACalib.i
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\PYDNACALIB\PYTHON3\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib -BD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build --check-stamp-file D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/PyDNACalib/python3/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

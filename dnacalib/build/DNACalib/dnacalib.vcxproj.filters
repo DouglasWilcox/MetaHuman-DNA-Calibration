@@ -1,0 +1,663 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\LODConstraint.cpp">
+      <Filter>src\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\LODMapping.cpp">
+      <Filter>src\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\Reader.cpp">
+      <Filter>src\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\Writer.cpp">
+      <Filter>src\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\AnimatedMapFilter.cpp">
+      <Filter>src\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\BlendShapeFilter.cpp">
+      <Filter>src\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\JointFilter.cpp">
+      <Filter>src\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\MeshFilter.cpp">
+      <Filter>src\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\BinaryStreamReaderImpl.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\BinaryStreamWriterImpl.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\FilteredInputArchive.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\JSONStreamReaderImpl.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\JSONStreamWriterImpl.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\StreamReader.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\StreamWriter.cpp">
+      <Filter>src\dna\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\Command.cpp">
+      <Filter>src\dnacalib</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\CalculateMeshLowerLODsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\ClearBlendShapesCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\CommandSequence.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\PruneBlendShapeTargetsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RemoveAnimatedMapCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RemoveBlendShapeCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RemoveJointAnimationCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RemoveJointCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RemoveMeshCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RenameAnimatedMapCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RenameBlendShapeCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RenameJointCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RenameMeshCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RotateCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\ScaleCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetBlendShapeTargetDeltasCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetLODsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetNeutralJointRotationsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetNeutralJointTranslationsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetSkinWeightsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SetVertexPositionsCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\TranslateCommand.cpp">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\DNACalibDNAReaderImpl.cpp">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\LODConstraint.cpp">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\LODMapping.cpp">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\AnimatedMapFilter.cpp">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\BlendShapeFilter.cpp">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\JointFilter.cpp">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\MeshFilter.cpp">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\types\Triangle.cpp">
+      <Filter>src\dnacalib\types</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\types\UVBarycentricMapping.cpp">
+      <Filter>src\dnacalib\types</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\version\VersionInfo.cpp">
+      <Filter>src\dnacalib\version</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\pma\MemoryResource.cpp">
+      <Filter>src\pma</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\pma\resources\AlignedMemoryResource.cpp">
+      <Filter>src\pma\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\pma\resources\ArenaMemoryResource.cpp">
+      <Filter>src\pma\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\pma\resources\DefaultMemoryResource.cpp">
+      <Filter>src\pma\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Provider.cpp">
+      <Filter>src\status</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Registry.cpp">
+      <Filter>src\status</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Status.cpp">
+      <Filter>src\status</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Storage.cpp">
+      <Filter>src\status</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\Concepts.cpp">
+      <Filter>src\trio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\Stream.cpp">
+      <Filter>src\trio</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\FileStreamImpl.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStream.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamFallback.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamUnix.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamWindows.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryStreamImpl.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\StreamStatus.cpp">
+      <Filter>src\trio\streams</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\BaseImpl.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\DNA.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\DataLayerBitmask.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\DenormalizedData.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\LODConstraint.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\LODMapping.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\ReaderImpl.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\SurjectiveMapping.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\TypeDefs.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\WriterImpl.h">
+      <Filter>src\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\AnimatedMapFilter.h">
+      <Filter>src\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\BlendShapeFilter.h">
+      <Filter>src\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\JointFilter.h">
+      <Filter>src\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\MeshFilter.h">
+      <Filter>src\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\filters\Remap.h">
+      <Filter>src\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\BinaryStreamReaderImpl.h">
+      <Filter>src\dna\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\BinaryStreamWriterImpl.h">
+      <Filter>src\dna\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\FilteredInputArchive.h">
+      <Filter>src\dna\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\JSONStreamReaderImpl.h">
+      <Filter>src\dna\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\stream\JSONStreamWriterImpl.h">
+      <Filter>src\dna\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\types\Limits.h">
+      <Filter>src\dna\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\utils\Extd.h">
+      <Filter>src\dna\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dna\utils\ScopedEnumEx.h">
+      <Filter>src\dna\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\CommandImplBase.h">
+      <Filter>src\dnacalib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\TypeDefs.h">
+      <Filter>src\dnacalib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\RenameResourceCommand.h">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\commands\SupportFactories.h">
+      <Filter>src\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\BaseImpl.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\DNA.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\DNACalibDNAReaderImpl.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\DenormalizedData.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\LODConstraint.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\LODMapping.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\ReaderImpl.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\SurjectiveMapping.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\WriterImpl.h">
+      <Filter>src\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\AnimatedMapFilter.h">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\BlendShapeFilter.h">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\JointFilter.h">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\MeshFilter.h">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\dna\filters\Remap.h">
+      <Filter>src\dnacalib\dna\filters</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\types\BoundingBox.h">
+      <Filter>src\dnacalib\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\types\Triangle.h">
+      <Filter>src\dnacalib\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\types\UVBarycentricMapping.h">
+      <Filter>src\dnacalib\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\utils\Algorithm.h">
+      <Filter>src\dnacalib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\utils\Extd.h">
+      <Filter>src\dnacalib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\utils\FormatString.h">
+      <Filter>src\dnacalib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\dnacalib\utils\ScopedEnumEx.h">
+      <Filter>src\dnacalib\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\PredefinedCodes.h">
+      <Filter>src\status</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Registry.h">
+      <Filter>src\status</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\status\Storage.h">
+      <Filter>src\status</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\Computations.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\Mat.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\TDM.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\Transforms.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\Types.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\Vec.h">
+      <Filter>src\tdm</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\tdm\version\Version.h">
+      <Filter>src\tdm\version</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\Archive.h">
+      <Filter>src\terse</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\Common.h">
+      <Filter>src\terse\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\Traits.h">
+      <Filter>src\terse\archives</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\binary\InputArchive.h">
+      <Filter>src\terse\archives\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\binary\OutputArchive.h">
+      <Filter>src\terse\archives\binary</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\json\InputArchive.h">
+      <Filter>src\terse\archives\json</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\archives\json\OutputArchive.h">
+      <Filter>src\terse\archives\json</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\Anchor.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\ArchiveOffset.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\ArchiveSize.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\Blob.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\CharInputStreamBuf.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\CharOutputStreamBuf.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\DynArray.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\types\Transparent.h">
+      <Filter>src\terse\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\utils\Base64.h">
+      <Filter>src\terse\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\utils\ByteSwap.h">
+      <Filter>src\terse\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\utils\Endianness.h">
+      <Filter>src\terse\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\utils\VirtualSerializerProxy.h">
+      <Filter>src\terse\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\terse\version\Version.h">
+      <Filter>src\terse\version</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\FileStreamImpl.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamFallback.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamUnix.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryMappedFileStreamWindows.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\MemoryStreamImpl.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\streams\StreamStatus.h">
+      <Filter>src\trio\streams</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\utils\NativeString.h">
+      <Filter>src\trio\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\utils\PlatformWindows.h">
+      <Filter>src\trio\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\src\trio\utils\ScopedEnumEx.h">
+      <Filter>src\trio\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\DNACalib.h">
+      <Filter>include\dnacalib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\Command.h">
+      <Filter>include\dnacalib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\Defs.h">
+      <Filter>include\dnacalib</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\CalculateMeshLowerLODsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\ClearBlendShapesCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\CommandSequence.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\ConditionalCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\PruneBlendShapeTargetsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveAnimatedMapCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveBlendShapeCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveJointAnimationCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveJointCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RemoveMeshCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameAnimatedMapCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameBlendShapeCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameJointCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RenameMeshCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\RotateCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\ScaleCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetBlendShapeTargetDeltasCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetLODsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetNeutralJointRotationsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetNeutralJointTranslationsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetSkinWeightsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\SetVertexPositionsCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\TranslateCommand.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\commands\VectorOperations.h">
+      <Filter>include\dnacalib\commands</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\dna\DNACalibDNAReader.h">
+      <Filter>include\dnacalib\dna</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\types\Aliases.h">
+      <Filter>include\dnacalib\types</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\version\Version.h">
+      <Filter>include\dnacalib\version</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\include\dnacalib\version\VersionInfo.h">
+      <Filter>include\dnacalib\version</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Github\Metahuman-DNA-Calibration\MetaHuman-DNA-Calibration\dnacalib\DNACalib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{5515C0BB-F555-36B0-B088-EE829764AFDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dnacalib">
+      <UniqueIdentifier>{63569BB8-31B4-3C11-82F1-D70B5B218541}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dnacalib\commands">
+      <UniqueIdentifier>{D12BC4B6-92D0-368C-8C13-D9B28FAC23E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dnacalib\dna">
+      <UniqueIdentifier>{8C84A1E6-A645-3421-AD51-46DD5FB548B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dnacalib\types">
+      <UniqueIdentifier>{78F33A39-6B69-3BE5-873F-5317C910F0C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\dnacalib\version">
+      <UniqueIdentifier>{F61BFDFD-7F62-3BBA-94B0-CA16BCE38AD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{B9C4AD85-51F2-3F62-85A5-3ED7409056ED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dna">
+      <UniqueIdentifier>{EF637F94-DC88-32BE-9341-2623E5592D78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dna\filters">
+      <UniqueIdentifier>{6F0252C1-C04A-34B7-8158-C568F1EA0E48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dna\stream">
+      <UniqueIdentifier>{6A45D089-15B6-329B-9320-1B3F298D4999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dna\types">
+      <UniqueIdentifier>{6B406A1A-3030-3DDC-A614-B585D9746A86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dna\utils">
+      <UniqueIdentifier>{812BEC26-9D5C-3759-8A46-62469BFB1AFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib">
+      <UniqueIdentifier>{BB809D42-F294-3AF9-9B3C-18A8D858B416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\commands">
+      <UniqueIdentifier>{96287158-128D-3E15-B68A-FA14260C9C26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\dna">
+      <UniqueIdentifier>{F246BF48-FE51-3420-ABA1-4698C742CB01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\dna\filters">
+      <UniqueIdentifier>{0EFB84C1-2AD0-3FB5-967B-23537A2AECA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\types">
+      <UniqueIdentifier>{663806CA-3A52-3C89-A8FD-B8012233E6F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\utils">
+      <UniqueIdentifier>{63FAAD90-7391-3AC7-A3BC-26D07B9A2EF9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dnacalib\version">
+      <UniqueIdentifier>{71DA79E0-D56B-37C2-A993-7E079F636E39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pma">
+      <UniqueIdentifier>{FBE54624-00EB-38B0-B3D7-80C70A958585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\pma\resources">
+      <UniqueIdentifier>{33E2D16A-A9C6-30FF-B7AD-94FFCA07C1BD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\status">
+      <UniqueIdentifier>{252CACC4-51FA-384E-BADE-F278AF8AC1B9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tdm">
+      <UniqueIdentifier>{D2D70848-EEF7-3D50-958D-9F5EB2A65698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tdm\version">
+      <UniqueIdentifier>{44331352-98B0-3943-948A-33B035EE6F3E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse">
+      <UniqueIdentifier>{B11F8A58-C730-3A27-84DB-6A4263298B1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\archives">
+      <UniqueIdentifier>{6D6FCC6B-2A4B-32F9-8BBB-7CC08BE9FE78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\archives\binary">
+      <UniqueIdentifier>{E6C3EBB4-6648-3188-81A0-2A7A1905BE8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\archives\json">
+      <UniqueIdentifier>{63B2DAEA-6EC5-36E9-BAC1-44C425FF7218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\types">
+      <UniqueIdentifier>{FBE737B3-0D7F-302D-8067-A57CEBAA825F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\utils">
+      <UniqueIdentifier>{6E16D308-2515-30AB-9F3D-CD36A44CB198}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\terse\version">
+      <UniqueIdentifier>{D4DFB50B-DA33-33B1-B22D-812CA25D3E83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\trio">
+      <UniqueIdentifier>{F0E58ADF-050E-3BAD-A987-08EB92402729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\trio\streams">
+      <UniqueIdentifier>{9F8EBA23-E400-3D84-9E09-B7DB84AA218E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\trio\utils">
+      <UniqueIdentifier>{A3E7AD07-B2BE-3B77-9E69-EC2B83C2A1A7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

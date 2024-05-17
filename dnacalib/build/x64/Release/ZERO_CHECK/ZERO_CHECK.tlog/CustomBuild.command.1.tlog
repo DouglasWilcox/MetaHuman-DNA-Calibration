@@ -1,0 +1,10 @@
+^D:\GITHUB\METAHUMAN-DNA-CALIBRATION\METAHUMAN-DNA-CALIBRATION\DNACALIB\BUILD\CMAKEFILES\A59776C0597F7A9B1AEADC79E416C1FE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib -BD:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Github/Metahuman-DNA-Calibration/MetaHuman-DNA-Calibration/dnacalib/build/dnacalib.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
